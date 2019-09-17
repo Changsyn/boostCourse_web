@@ -1,0 +1,95 @@
+@charset "UTF-8";
+body{
+	margin: 10px 15px 50px 15px;
+	background-color: #d2d2d2;
+}
+header{ /* index.html */
+	background-color: white;
+	padding: 15px 0 15px 0;
+	text-align: center;
+	margin: 10px 0 10px 0;
+}
+header ul {
+	list-style: none;
+	text-align: right;
+	margin: 20px;
+	padding: 0;	
+}
+header li{
+	display: inline-block;
+	width: 120px;
+	height: 40px;
+	background-color:#8adde2;
+	text-align: center;
+	box-shadow: 3px 3px 5px grey;
+}
+header a{
+	text-decoration: none;
+	display: block;
+	height: 100%;
+	padding: 10px;
+}
+header a:hover{
+	cursor: pointer;
+}
+header a:visited{
+	color:blue;
+}
+section{
+	background-color: white;
+	text-align: center;
+	padding: 10px 0 40px 0;
+}
+section ul{
+	list-style: none;
+	text-align: center;
+	margin-left: -50px;
+}
+section li{
+	width: 100px;
+	background-color: #8adde2;
+	box-shadow: 3px 3px 5px gray;
+	display: inline-block;
+	padding: 40px 0px;
+	color: white;
+	margin-left: 10px;
+}
+section li a{
+	text-decoration: none;
+}
+section li a:hover{
+	cusor: pointer;
+	color: yellow;
+}
+section .content{ /* aboutme.html  */ 
+	text-align: left;
+	padding: 10px 120px 40px 120px;
+}
+section .content h1{
+	margin-bottom: 2px;
+}
+section .content p{
+	margin-top: 2px;
+}
+section .picture{ /* photo.html */ 
+	text-align: left;
+	margin: 50px 50px 100px 50px;
+}
+section .picture img{
+	border: 5px solid gray;
+	margin: 0 30px;
+	float: left;
+}
+section .picture p{
+	margin-top: -1px;
+}
+hr{
+	width: 1470px;
+}
+footer{
+	text-align: center;
+	background-color: white;
+	margin: 10px 0 0 0;
+	padding: 15px 0 15px 0;
+	
+}

@@ -1,0 +1,13 @@
+@charset "UTF-8";
+body{
+	background-color: white;
+}
+#time{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 600px;
+	height: 100px;
+	margin: -60px 0 0 -300px;
+	font-size: 20px;
+}
