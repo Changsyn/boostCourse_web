@@ -1,0 +1,29 @@
+@charset "UTF-8";
+#container {
+	position: relative;
+	left: 45%;
+}
+h2{
+	font-size: 40px;
+}
+.input {
+	position: relative;
+	margin-left: -15%;
+	margin-top: 50px;
+	color: gray;
+}
+
+.input .text{
+	margin-right: 30px;
+	display: inline;
+	color: black;
+}
+#button{
+	margin-left: 60px;
+	margin-top: -50px;
+}
+#button .blue {
+	margin-left: 10px;
+	display: inline;
+	position: relative;
+}
